@@ -1,0 +1,57 @@
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover,
+.maker footer {
+    display: none
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+}
+nav.navbar {
+    background-color: #45957A;
+}
+nav.navbar,
+nav.navbar .navbar-collapse {
+    border: none;
+    background-color: #45957A;
+}
+.theme-modal .theme-list li a {
+    width: 200px;
+    height: 100px;
+    margin: 0;
+    display: block;
+    overflow: hidden
+}
+@media (min-width: 1200px) {
+    .theme-modal .modal-dialog {
+        width: 1000px
+    }
+}
+nav.navbar {
+    background: url(../../images/header_bg.jpg) top left repeat-x #378065
+}
+nav.navbar .navbar-brand {
+    width: 141px;
+    height: 29px;
+    color: #fff;
+    margin: 15px 35px 0 0;
+    text-indent: -9999px
+}
+nav.navbar .navbar-nav>li>a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff
+}
+nav.navbar .navbar-nav>li>a:focus,
+nav.navbar .navbar-nav>li>a:hover {
+    background: 0 0
+}
+nav.navbar .navbar-btn {
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.navbar-nav {
+    padding-left: 5%;
+    padding-right: 5%;
+}
